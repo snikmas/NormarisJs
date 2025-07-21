@@ -1,3 +1,15 @@
 build frontend first
 
 1. write models fro evetything?
+features/
+└── product/
+    ├── components/        # UI components for products
+    │   └── ProductCard.jsx
+    ├── hooks/             # e.g., useProductSearch, useProductDetails
+    ├── productSlice.js    # Redux or Zustand slice for product state
+    ├── productAPI.js      # API calls: fetchProducts, getProductById
+    ├── productModel.js    # Product model (object shape / JSDoc / schema)
+    └── index.js           # Re-export entry (optional)
+
+
+pages for crating routes for those
