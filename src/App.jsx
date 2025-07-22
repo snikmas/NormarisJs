@@ -2,6 +2,7 @@ import React from 'react'
 import MainLayout from './layouts/MainLayout'
 import { Route, Routes } from 'react-router-dom'
 
+
 // pages
 import Home from './pages/Home'
 import Cart from './pages/Cart'
