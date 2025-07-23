@@ -4,8 +4,8 @@ import { assets } from '../assets/assets'
 export default function NewCollectionCard() {
   return (
     <div
-      className="newCollectionCard h-100 bg-contain bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${assets.bgHome})` }}
+      className="newCollectionCard bg-center min-h-200 bg-no-repeat bg-cover"
+      style={{ backgroundImage: `url(${assets.bg})` }}
     >
     </div>
 
