@@ -22,6 +22,13 @@ import { MdOutlineFavoriteBorder, MdOutlineFavorite, MdOutlineShoppingBag } from
 import { BsSearch } from 'react-icons/bs';
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 
+// photos
+import product_1 from './clothes/product-1.jpg' 
+import product_3 from './clothes/product-3.png' 
+import product_4 from './clothes/product-4.png' 
+import product_5 from './clothes/product-5.jpg' 
+import product_6 from './clothes/product-6.jpg' 
+import product_7 from './clothes/product-7.jpg' 
 
 // hard to do: no pages rn
 export const contacts = {
@@ -42,5 +49,6 @@ export const assets = {
   isFavoriteFull: MdOutlineFavorite,
   isFavoriteEmpty: MdOutlineFavoriteBorder,
   search: BsSearch,
-  cart: MdOutlineShoppingBag
+  cart: MdOutlineShoppingBag,
+  product_1, product_3, product_4, product_5, product_6, product_7
 }
